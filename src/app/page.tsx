@@ -174,7 +174,6 @@ export default function Home() {
               <p>
                 <strong>{message.sender}</strong> at {message.timestamp}
               </p>
-              <p>Encrypted: {message.encryptedText}</p>
               <p>Decrypted: {message.decryptedText}</p>
             </article>
           ))}
